@@ -37,7 +37,7 @@ THE BEST- PERFORMING MODEL WAS SELECTED Based on evalutemetrics
  -    -   - -
 
 -----model performance
-((((( R_squre score: ~0.89))))))
+( r²score: ~0.89)
 
 ## How to Run... 
 clone the repository 
