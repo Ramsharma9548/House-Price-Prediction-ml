@@ -219,7 +219,7 @@ if st.button("🔍 Predict House Price"):
         'Neighborhood': neighborhood_enc
     }])
 
-    predicted_price = model.predict(input_data)[0]
+    predicted_price = model.predict(input_data)[0]*10
     low = predicted_price * 0.90
     high = predicted_price * 1.10
 
